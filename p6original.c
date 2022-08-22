@@ -1,4 +1,4 @@
-#include<stdio.h>
+g#include<stdio.h>
 int input_size(char s[])
 {
   int x;
@@ -6,15 +6,15 @@ int input_size(char s[])
   scanf("%d",&x);
   return x;
   }
-int input_ele(int size, int arr[])
+void input_ele(int size, int arr[size])
 {
   for(int i=0;i<=size;i++)
   {
     scanf("%d",&arr[i]);
   }
 }
-int sum_arr(int n){
-int sum;
+int sum_arr(int n ,int arr[n]){
+int sum=0;
 
 for(int i=0;i<=n;i++)
 {
@@ -29,7 +29,7 @@ int main()
 {
   int size=input_size("size of array:");
   int arr[size];
-  arr[size]=input_ele(size);
+  arr[size]=input_ele(size,arr);
   int sum=sum_arr(size,arr);
   output(sum);
   return 0;
