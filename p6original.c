@@ -1,4 +1,4 @@
-g#include<stdio.h>
+#include<stdio.h>
 int input_size(char s[])
 {
   int x;
@@ -13,8 +13,9 @@ void input_ele(int size, int arr[size])
     scanf("%d",&arr[i]);
   }
 }
-int sum_arr(int n ,int arr[n]){
-int sum=0;
+int sum_arr(int n ,int arr[n])
+{
+ int sum=0;
 
 for(int i=0;i<=n;i++)
 {

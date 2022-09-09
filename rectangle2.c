@@ -7,14 +7,14 @@ float input(char s[])
   return x;
 }
 
-float find_area(float length,float height)
+float find_area(float length,float breadth)
 {
-  float area=length*breadth);
+  float area=length*breadth;
   return area;
 }
 void output(float length,float breadth,float area )
 {
-  print("the area of the recatngle with length=%f and breadth=%f is %f\n",length,breadth,area)l
+  print("the area of the recatngle with length=%f and breadth=%f is %f\n",length,breadth,area)
 }
 
 int main(void)
